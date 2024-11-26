@@ -1,0 +1,19 @@
+:root {
+  --primaryColor: blue;
+  --cl-secondary: red;
+  --transition: all 1s linear;
+}
+h1 {
+  color: var(--primaryColor);
+}
+h2 {
+  color: var(--primaryColor);
+}
+h3 {
+  color: var(--primaryColor);
+  transition: var(--transition);
+}
+h3:hover {
+  color: var(--cl-secondary);
+  font-size: 50px;
+}
